@@ -2,7 +2,7 @@
     "name":"goli",
     "displayName":"Goli",
     "description":"Golang snippet for VS Code",
-    "version":"0.0.1",
+    "version":"0.0.2",
     "publisher":"shivkumarsingh",
     "author":{
        "name":"Shiv Kumar Singh",
