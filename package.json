@@ -1,42 +1,38 @@
 {
-    "name": "goli",
-    "displayName": "Goli",
-    "description": "Golang snippet for VS Code",
-    "version": "0.0.1",
-    "publisher": "shivkumarsingh",
-    "author": {
-        "name": "Shiv Kumar Singh",
-        "email": "shivam.developer7@gmail.com",
-        "url": "https://github.com/shivkumarsingh7"
-      },
-    "engines": {
-        "vscode": "^1.63.0"
+    "name":"goli",
+    "displayName":"Goli",
+    "description":"Golang snippet for VS Code",
+    "version":"0.0.1",
+    "publisher":"shivkumarsingh",
+    "author":{
+       "name":"Shiv Kumar Singh",
+       "email":"shivam.developer7@gmail.com",
+       "url":"https://github.com/shivkumarsingh7"
     },
-    "categories": [
-        "Snippets"
+    "engines":{
+       "vscode":"^1.63.0"
+    },
+    "categories":[
+       "Snippets"
     ],
-
-  "keywords": [
-    "go",
-    "golang",
-    "go snippet",
-    "go snippets",
-    "golang snippet",
-    "golang snippets",
-    "go-snippet",
-    "go-snippets",
-    "golang-snippet",
-    "golang-snippets",
-    "snippet",
-    "snippets",
-    "autocomplete"
-  ],
-    "contributes": {
-        "snippets": [
-            {
-                "language": "go",
-                "path": "./snippets/snippets.code-snippets"
-            }
-        ]
+    "keywords":[
+       "go",
+       "golang",
+       "go snippet",
+       "go snippets",
+       "golang snippet",
+       "golang snippets",
+       "go-snippet",
+       "go-snippets",
+       "golang-snippet",
+       "autocomplete"
+    ],
+    "contributes":{
+       "snippets":[
+          {
+             "language":"go",
+             "path":"./snippets/snippets.code-snippets"
+          }
+       ]
     }
-}
+ }
