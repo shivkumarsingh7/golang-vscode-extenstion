@@ -72,5 +72,9 @@
 
 
         ]
-    }
+    },
+    "elapse":{
+        "prefix": "el",
+        "body": ["start := time.Now()","defer func(process string) {","fmt.Println(process,\" : \", time.Since(start))","}(\"$0\")"]
+    },
 }
